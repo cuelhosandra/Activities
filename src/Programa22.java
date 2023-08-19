@@ -2,14 +2,15 @@
  * 
  * São produtos/instância da classe;
  * 
+ * 
  */
+
 public class Programa22 {
 
 	public static void main(String[] args) {
 		
 		//Declarando e inicializando o objeto: 
-		//O objeto é o P1
-		Produto p1 = new Produto();
+		Produto p1 = new Produto(); // Produto(); é o CONSTRUTOR
 		
 	
 		p1.preco = 210.00f;
@@ -36,6 +37,16 @@ public class Programa22 {
 		System.out.println("Nome: " + pessoa1.nome);
 		System.out.println("E-mail: " + pessoa1.email);
 		System.out.println("CPF: " + pessoa1.cpf);
+		
+		//Declarando e Instanciando Pessoa com parâmetros:
+		
+		Pessoa pessoa2 = new Pessoa("Sandra", "teste@teste", "239232"); {
+			
+		
+		System.out.println("Nome: " + pessoa2.nome);
+		System.out.println("E-mail: " + pessoa2.email);
+		System.out.println("CPF: " + pessoa2.cpf);
+		}
 		
 	}
 
