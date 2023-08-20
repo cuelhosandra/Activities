@@ -1,6 +1,6 @@
 <h1>Java Avançado - Udemy</h1>
 
-### -> Estudos realizados a partir do Curso pela plataforma Udemy.
+### -> O curso é uma realização da Geek University inserida na plataforma Udemy.
 ### -> O curso têm como objetivo abordar assuntos básicos da Linguagem Java até o nível avançado.
 ### -> Além dos exercícios, insiro todas as anotações realizadas durante o curso dado pela Geek University.
 
