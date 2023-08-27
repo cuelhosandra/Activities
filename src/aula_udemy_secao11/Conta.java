@@ -7,6 +7,13 @@ import java.util.Scanner;
  * 			- A nomenclatura é: getNome_do_atributo()
  *  
  */
+
+/*
+ * PUBLIC: Classes e construtores devem ser obrigatórios ser PUBLIC. 
+ * PUBLIC: Métodos também são PUBLIC.
+ * Sendo público: consigo utilizar em todos os outros programas ou classes do meu projeto
+ * 
+ */
 public class Conta {
 	
 	private int numeroConta;
