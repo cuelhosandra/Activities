@@ -8,8 +8,15 @@ public class Cliente {
 		this.nome = nome;
 		this.endereco = endereco;
 		
+		//Mesmo que o método é private, estou inserindo ele num método público, então ele pode ser usado em outra classe
+		this.dizerOi();
 	}
 
+	private void dizerOi() {
+		System.out.println("Oie");
+	}
+
+	//Criando get e set pra utilizar os atributos em outra classe
 	public String getNome() {
 		return nome;
 	}
@@ -25,6 +32,9 @@ public class Cliente {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
+	
+	
+	
 	
 
 }
