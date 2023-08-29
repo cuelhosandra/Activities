@@ -9,7 +9,7 @@ public class Programa27 {
 	public static void main(String[] args) {
 		
 		Cliente cli1 = new Cliente("Sandrinha", "Rua taltaltal");
-		
+		cli1.dizerOi();
 		System.out.println("Nome: " + cli1.getNome());
 	
 	}

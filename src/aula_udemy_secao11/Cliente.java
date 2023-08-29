@@ -1,5 +1,9 @@
 package aula_udemy_secao11;
 
+//PROTECTED (modificador de acesso default/padrão):
+
+////Se não inserir public nem private, significa que é PROTECTED
+///Ou seja, você consegue utilizar na classe do mesmo pacote mas fora dele, não 
 public class Cliente {
 	private String nome;
 	private String endereco;
@@ -9,10 +13,11 @@ public class Cliente {
 		this.endereco = endereco;
 		
 		//Mesmo que o método é private, estou inserindo ele num método público, então ele pode ser usado em outra classe
-		this.dizerOi();
+//		this.dizerOi();
 	}
 
-	private void dizerOi() {
+	//Se não inserir public nem private, significa que é PROTECTED
+	 void dizerOi() {
 		System.out.println("Oie");
 	}
 
