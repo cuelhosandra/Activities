@@ -6,7 +6,7 @@ package aula_udemy_secao12;
  * - Classe filha.
  */
 public class Aluno extends Pessoa {
-	private String ra;
+	private String ra = "1234";
 	
 	public Aluno(String nome, int anoNascimento, String email, String ra) {	
 		//Utilizar SUPER pra pegar atributos da outra classe:
@@ -22,5 +22,7 @@ public class Aluno extends Pessoa {
 	}
 	
 	
-
+	public String toString() {
+		return super.toString() + "\nR.a: " + this.ra;
+	}
 }

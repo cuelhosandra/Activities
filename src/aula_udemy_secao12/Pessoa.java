@@ -39,6 +39,8 @@ public class Pessoa {
 		this.email = email;
 	}
 	
-	
+	public String toString() {
+		return "Nome: " + this.nome + "\nAno Nascimento: " + this.anoNascimento;
+	}
 
 }
