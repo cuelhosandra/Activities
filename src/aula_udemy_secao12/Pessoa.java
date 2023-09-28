@@ -12,6 +12,10 @@ public class Pessoa {
 	private int anoNascimento;
 	private String email;
 	
+	//Isso é um overloading:
+	public Pessoa() {
+		
+	}
 	public Pessoa(String nome, int anoNascimento, String email) {
 		this.nome = nome;
 		this.anoNascimento = anoNascimento;
@@ -43,4 +47,12 @@ public class Pessoa {
 		return "Nome: " + this.nome + "\nAno Nascimento: " + this.anoNascimento;
 	}
 
+	//Isso é uma sobrecarga:
+	public void mensagem() {
+		System.out.println("Essa é minha mensagem");
+	}
+	
+	public void mensagem(String msg) {
+		System.out.println(msg);
+	}
 }
