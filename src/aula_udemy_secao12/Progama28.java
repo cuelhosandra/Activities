@@ -18,8 +18,8 @@ public class Progama28 {
 //		p1.setNome("Sandra Coelho");
 //		System.out.println(p1.getNome());
 		
-		Pessoa p1 = new Pessoa("Sandra Coelho", 22, "teste@");		
-		System.out.println(p1.getAnoNascimento());
+		//Pessoa p1 = new Pessoa("Sandra Coelho", 22, "teste@");		
+		//System.out.println(p1.getAnoNascimento());
 		
 		Aluno a1 = new Aluno("Vanessa da Silva", 22, "teste@teste", "424242");		
 		System.out.println(a1.getNome());

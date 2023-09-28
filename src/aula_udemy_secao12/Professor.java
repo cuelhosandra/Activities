@@ -16,6 +16,12 @@ public class Professor extends Pessoa {
 	public void setMatricula(String matricula) {
 		this.matricula = matricula;
 	}
+
+	//Implementando o método abstrato da classe Pessoa
+	@Override
+	public void outra_mensagem(String texto) {
+		System.out.println("Teste");		
+	}
 	
  
 }

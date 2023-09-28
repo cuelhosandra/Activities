@@ -25,4 +25,11 @@ public class Aluno extends Pessoa {
 	public String toString() {
 		return super.toString() + "\nR.a: " + this.ra;
 	}
+
+	//Implementando método abstrato da classe Pessoa
+	@Override
+	public void outra_mensagem(String texto) {
+		System.out.println("Teste");
+				
+	}
 }

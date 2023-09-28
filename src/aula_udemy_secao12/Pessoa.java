@@ -7,7 +7,9 @@ package aula_udemy_secao12;
  * - Super classe;
  * - Classe genérica.
  */
-public class Pessoa {
+
+//Agora essa classe é abstrata
+public abstract class Pessoa {
 	private String nome;
 	private int anoNascimento;
 	private String email;
@@ -55,4 +57,7 @@ public class Pessoa {
 	public void mensagem(String msg) {
 		System.out.println(msg);
 	}
+	
+	//Declaração de um método abstrato
+	public abstract void outra_mensagem(String texto);
 }
